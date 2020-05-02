@@ -1,0 +1,64 @@
+@import "import";
+
+// styles
+
+.header {
+  height: $height-header;
+  width: 100%;
+  padding: 0 30px;
+  background: $white;
+  box-shadow: $basic-shadow;
+  position: relative;
+  &__title {
+    font-size: 2.4rem;
+    line-height: $height-header;
+  }
+}
+
+.main {
+  min-height: $height-main;
+  background: $super-light-gray;
+  padding: 30px;
+  font-size: 1.6rem;
+  &__container {
+    background: $white;
+    padding: 16px 24px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    box-shadow: $basic-shadow;
+  }
+  &__form {
+
+  }
+  &__text {
+    margin-bottom: 10px;
+  }
+  &__input {
+    display: block;
+    width: 100%;
+    height: 56px;
+    padding: 0 4px;
+    border: 1px solid $light-gray;
+    border-radius: 4px;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+  }
+  &__button {
+    border-radius: 4px;
+    color: $white;
+    width: 80px;
+    height: 28px;
+    text-align: center;
+    background: darkblue;
+    &.return {
+      background: $dark-gray;
+    }
+    &.post {
+      background: darkblue;
+    }
+  }
+}
+
+.footer {
+
+}
