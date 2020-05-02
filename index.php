@@ -18,7 +18,7 @@
     <div class="main__container">
       <form class="main__form" action="post.php" method="post">
         <p class="main__text">送信するメッセージ</p>
-        <input class="main__input" type="text" name="message" value="" required>
+        <textarea class="main__input" type="text" name="message" value="" required></textarea>
         <input class="main__button post" type="submit" name="button" value="送信">
       </form>
     </div>
